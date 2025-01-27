@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#f9fafb", // Light background
+        primary: "#2563eb", // Tailwind Blue-600 for buttons
+        secondary: "#374151", // Tailwind Gray-700 for text
+        danger: "#ef4444", // Tailwind Red-500 for delete buttons
       },
     },
   },
